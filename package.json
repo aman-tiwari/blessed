@@ -17,5 +17,9 @@
   },
   "browserify": {
     "transform": ["./browser/transform.js"]
+  },
+  "dependencies": {
+    "term.js": "latest",
+    "node-pty": "latest"
   }
 }
